@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plug Cake Parlour | Premium Cakes in Kenya</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<!-- BACKGROUND SHAPES -->
+<div class="bg-shape shape1"></div>
+<div class="bg-shape shape2"></div>
+<div class="bg-shape shape3"></div>
+
+<header>
+  <div class="logo">🔌 Plug Cake Parlour</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#cakes">Cakes</a>
+    <a href="#about">About</a>
+    <a href="#order">Order</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Baking Sweet Moments<br><span>One Cake at a Time</span></h1>
+    <p>Custom-made premium cakes in Kenya for birthdays, weddings & special moments.</p>
+    <div class="hero-buttons">
+      <a href="#order" class="btn">Order a Cake</a>
+      <a href="#cakes" class="btn ghost">View Cakes</a>
+    </div>
+  </div>
+
+  <div class="hero-cake" id="cake3d">
+    <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c" alt="Luxury Cake">
+  </div>
+</section>
+
+<!-- CAKES -->
+<section id="cakes" class="section">
+  <h2>Our Signature Cakes</h2>
+
+  <div class="cake-grid">
+    <div class="cake-card" data-gallery="birthday">
+      <img src="https://images.unsplash.com/photo-1542826438-bd32f43d626f">
+      <h3>Birthday Cakes</h3>
+    </div>
+
+    <div class="cake-card" data-gallery="wedding">
+      <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729">
+      <h3>Wedding Cakes</h3>
+    </div>
+
+    <div class="cake-card" data-gallery="custom">
+      <img src="https://images.unsplash.com/photo-1604413191066-4dd20bedf486">
+      <h3>Custom Theme Cakes</h3>
+    </div>
+
+    <div class="cake-card" data-gallery="cupcakes">
+      <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b">
+      <h3>Cupcakes</h3>
+    </div>
+  </div>
+</section>
+
+<!-- MODAL GALLERY -->
+<div class="modal" id="galleryModal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="gallery" id="galleryImages"></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="section dark">
+  <h2>About Plug Cake Parlour</h2>
+  <p>
+    A Kenyan-owned modern bakery focused on creativity, flavour, and unforgettable moments. Every cake is handcrafted with bold design, fresh ingredients, and love.
+  </p>
+</section>
+
+<!-- ORDER -->
+<section id="order" class="section">
+  <h2>Custom Cake Order</h2>
+  <form class="order-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <input type="date" required>
+    <textarea placeholder="Describe your cake idea"></textarea>
+    <button type="submit">Submit Order Request</button>
+  </form>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section dark">
+  <h2>Contact Us</h2>
+  <p>📍 Kenya</p>
+  <p>📞 +254 7XX XXX XXX</p>
+  <p>📩 plugcakeparlour@gmail.com</p>
+</section>
+
+<a href="https://wa.me/254700000000" class="whatsapp" target="_blank">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>
