@@ -12,6 +12,18 @@ body {background: #fff6ee; color: #3b2b2b; overflow-x:hidden;}
 .shape3 {width:220px;height:220px;background:#ffb703;bottom:10%;left:40%;}
 @keyframes float {0%,100%{transform:translateY(0);}50%{transform:translateY(-50px);}}
 
+.butterfly {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  z-index: 100;
+  img {
+  mix-blend-mode: multiply; /* removes white BG effect for some images */
+}
+  pointer-events: none; /* allows clicks through butterflies */
+  transition: transform 0.5s linear, top 0.61s linear, left 0.7s linear;
+}
+
 /* HEADER */
 header {display:flex;justify-content:space-between; padding:20px 40px; position:sticky; top:0; background: rgba(255,255,255,0.9); backdrop-filter:blur(10px); z-index:10;}
 nav a {margin-left:20px; text-decoration:none; color:#3b2b2b; font-weight:500;}
